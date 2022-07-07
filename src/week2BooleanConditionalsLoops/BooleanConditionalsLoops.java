@@ -63,7 +63,7 @@ public class BooleanConditionalsLoops {
 		double adjustedTotal = billTotal - (billTotal * loyaltyMemberDiscount);
 		System.out.println("Your total before the discount is: " + billTotal);
 		System.out.println("Your loyalty discount is: " + loyaltyMemberDiscount + "%, which makes your discount: " + billTotal * loyaltyMemberDiscount);
-		System.out.println("You grant total is: " + adjustedTotal);
+		System.out.println("Your grand total is: " + adjustedTotal);
 		if(adjustedTotal > 500 && loyaltyMemberStatus == "SILVER") {
 			loyaltyMemberStatus = "GOLD";
 		}
